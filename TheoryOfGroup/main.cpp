@@ -310,7 +310,7 @@ int main(){
             G.findSubgroups();
             break;
         }
-        default: cout << "Неверный выбор\n";
+        default: cout << "Неверный выбор\n"; // иначе
     }
     return 0;
 }
